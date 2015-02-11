@@ -1,0 +1,8 @@
+.tgf-slides div,
+.tgf-slides a {
+  display: inline-block;
+  position: relative;
+}
+.tgf-slides img {
+  margin: 0;
+}

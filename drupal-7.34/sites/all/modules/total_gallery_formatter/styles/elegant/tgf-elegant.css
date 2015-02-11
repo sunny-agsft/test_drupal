@@ -1,0 +1,70 @@
+.tgf-slides div,
+.tgf-slides a {
+  background: url(images/tgf-elegant-shadow.png) no-repeat bottom center;
+  padding-bottom: 13px;
+}
+.tgf-container {
+  background: url(images/tgf-elegant-shadow.png) no-repeat bottom center;
+  padding-bottom: 13px;
+  position: relative;
+}
+.tgf-slides img {
+  border-radius: 5px;
+}
+.tgf-container .caroufredsel_wrapper {
+  margin: auto !important;
+}
+.tgf-controls-container {
+  background: url(images/tgf-elegant-bg-pag.jpg) bottom repeat-x;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 25px 10px 35px;
+  position: relative;
+}
+.tgf-container {
+  display: inline-block;
+  text-align: center;
+}
+.tgf-pagination img {
+  border: thin solid #d4d4d4;
+  margin-right: 10px;
+}
+a.tgf-next-button,
+a.tgf-prev-button,
+a.tgf-pag-next-button,
+a.tgf-pag-prev-button {
+  background-image: url(images/tgf-elegant-btns.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 39px;
+  position: absolute;
+  bottom: 41px;
+  width: 35px;
+  z-index: 5;
+}
+a.tgf-pag-next-button {
+  background-position: -35px 0;
+  right: -7px;
+}
+a.tgf-next-button:hover,
+a.tgf-pag-next-button:hover {
+  background-position: -35px -39px;
+}
+a.tgf-pag-prev-button {
+  left: -7px;
+}
+a.tgf-prev-button:hover,
+a.tgf-pag-prev-button:hover {
+  background-position: 0 -39px;
+}
+a.tgf-next-button {
+  background-position: -35px 0;
+  bottom: 170px;
+  right: 6px;
+}
+a.tgf-prev-button {
+  bottom: 170px;
+  left: 6px;
+}
